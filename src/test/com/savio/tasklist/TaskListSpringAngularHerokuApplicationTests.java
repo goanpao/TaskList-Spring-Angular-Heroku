@@ -1,4 +1,4 @@
-package test.java.com.savio.tasklist;
+package com.savio.tasklist;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
