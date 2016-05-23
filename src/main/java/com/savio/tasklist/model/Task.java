@@ -29,7 +29,7 @@ public class Task {
 	private String taskStatus;
 
 	@Column(name="task_archived")
-	private int taskArchived = 0;
+	private boolean taskArchived = false;
 
 
 	public Task() {
@@ -43,11 +43,11 @@ public class Task {
 		this.id = taskId;
 	}
 
-	public int getTaskArchived() {
+	public boolean getTaskArchived() {
 		return taskArchived;
 	}
 
-	public void setTaskArchived(int taskArchived) {
+	public void setTaskArchived(boolean taskArchived) {
 		this.taskArchived = taskArchived;
 	}
 
